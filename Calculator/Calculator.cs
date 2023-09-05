@@ -41,5 +41,10 @@ public class Calculator : ICalculator
      {
          throw new NotImplementedException(); 
      }
+
+    public double Pow(double x, int n)
+    {
+        throw new NotImplementedException();
+    }
 }
 

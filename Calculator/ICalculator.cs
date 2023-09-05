@@ -22,4 +22,6 @@ public interface ICalculator
 
      double AbsMod(double x, int module, int mod);
 
+    double Pow(double x, int n);
+
 }
