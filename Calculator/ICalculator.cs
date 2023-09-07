@@ -1,4 +1,4 @@
-public interface ICalculator
+public interface ICalculator 
 {
     /// <summary>
     /// Suma algebraica

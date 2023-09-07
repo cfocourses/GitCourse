@@ -26,7 +26,7 @@ public class Calculator : ICalculator
 
     public double Mult(double x, double y)
     {
-        throw new NotImplementedException();
+        return  (x * y);
     }
 
      public double AddMod(double a, double y, int mod)
