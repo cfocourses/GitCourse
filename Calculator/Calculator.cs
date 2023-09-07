@@ -14,18 +14,17 @@ public class Calculator : ICalculator
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        double resp=0;
+       return resp=x/y;
     }
 
     public double Mult(double x, double y)
     {
-        throw new NotImplementedException();
+         return x*y;
+      
     }
 
-     public double AddMod(double a, double y, int mod)
-     {
-          throw new NotImplementedException(); 
-     }
+    public double AddMod(double a, double y, int mod) => (a + y) % mod; 
 
      public double MultMod(double x, double y, int mod)
      {
