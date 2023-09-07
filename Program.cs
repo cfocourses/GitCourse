@@ -7,5 +7,6 @@ internal class Program
         var calculator = new Calculator();
 
         Console.WriteLine($"3 + 5: {calculator.Add(3, 5)}");
+        Console.WriteLine($"6^2: {calculator.Pow(6, 2)}");
     }
 }
