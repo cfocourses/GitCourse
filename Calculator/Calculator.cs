@@ -4,28 +4,27 @@ public class Calculator : ICalculator
 {
     public double Abs(double x, int module)
     {
-        throw new NotImplementedException();
+        return x % module;
     }
 
     public double Add(double a, double y)
     {
-        throw new NotImplementedException();
+        return a + y;
     }
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        double resp=0;
+       return resp=x/y;
     }
 
     public double Mult(double x, double y)
     {
-        throw new NotImplementedException();
+         return x*y;
+      
     }
 
-     public double AddMod(double a, double y, int mod)
-     {
-          throw new NotImplementedException(); 
-     }
+    public double AddMod(double a, double y, int mod) => (a + y) % mod; 
 
      public double MultMod(double x, double y, int mod)
      {
@@ -39,7 +38,7 @@ public class Calculator : ICalculator
 
      public double AbsMod(double x, int module, int mod)
      {
-         throw new NotImplementedException(); 
+         return (x - module) % mod; 
      }
 
     public double Pow(double x, int n)
