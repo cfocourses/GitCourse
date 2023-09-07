@@ -1,8 +1,17 @@
 ﻿namespace CursoGit.Shapes
 {
-    public interface Rectagule
+    public class Rectagule : IShapes
     {
-        double Area(double x, double y);
-        double Perimeter(double x, double y);
+        public double Area(double x, double y)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double Perimeter(double x, double y)
+        {
+            throw new NotImplementedException();
+        }
     }
+
+   
 }
