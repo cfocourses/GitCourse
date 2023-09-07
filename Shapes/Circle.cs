@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Circle
+    public class Circle
     {
+        public double CalculateArea(double radio)
+        {
+            // Área de un círculo: π * radio^2
+            double area = Math.PI * Math.Pow(radio, 2);
+            return area;
+        }
     }
 }

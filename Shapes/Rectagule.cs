@@ -1,8 +1,15 @@
 ﻿namespace CursoGit.Shapes
 {
-    public interface Rectagule
+    public class Rectagule : IShapes
     {
-        double Area(double x, double y);
-        double Perimeter(double x, double y);
+        public double Area(double x, double y)
+        {
+            return x * y;
+        }
+
+        public double Perimeter(double x, double y)
+        {
+            return (x * 2) + (y * 2);
+        }
     }
 }
