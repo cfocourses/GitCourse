@@ -39,7 +39,7 @@ public class Calculator : ICalculator
 
      public double AbsMod(double x, int module, int mod)
      {
-         throw new NotImplementedException(); 
+         return (x - module) % mod; 
      }
 
     public double Pow(double x, int n)
