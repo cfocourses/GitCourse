@@ -9,7 +9,6 @@ public class Calculator : ICalculator
 
     public double Add(double a, double y)
     {
-        return a * y;
         throw new NotImplementedException();
     }
 
