@@ -56,8 +56,6 @@ public class Calculator : ICalculator
 
         return resultado;
     }
-
-
     public double DivMod(double x, double y, int mod)
     {
         if (y == 0)
@@ -103,7 +101,6 @@ public class Calculator : ICalculator
         return x1;
     }
 
-
     public double AbsMod(double x, int module, int mod)
     {
         if (module < 1 || mod <= 0)
@@ -146,7 +143,4 @@ public class Calculator : ICalculator
             }
         }
     }
-
-
 }
-
