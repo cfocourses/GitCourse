@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    interface IShapes
+    internal interface IShapes
     {
-        public double CalcularPerimetro();
+        
+        double Area(double x, double y);
+        double Perimeter(double x, double y);
     }
 }

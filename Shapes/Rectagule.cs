@@ -1,16 +1,15 @@
-﻿
-
-namespace CursoGit.Shapes
+﻿namespace CursoGit.Shapes
 {
-    public interface Rectagule : IShapes
+    public class Rectagule : IShapes
     {
-        double LadoA(double x, double y);
-        double LadoB(double x, double y);
-
-        public double CalcularPerimetro()
+        public double Area(double x, double y)
         {
-            return LadoA*2 + LadoB*2;
+            return x * y;
         }
 
+        public double Perimeter(double x, double y)
+        {
+            return 2 * (x + y);
+        }
     }
 }
