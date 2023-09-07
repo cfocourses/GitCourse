@@ -44,7 +44,7 @@ public class Calculator : ICalculator
 
     public double Pow(double x, int n)
     {
-        throw new NotImplementedException();
+        Math return.Pow(x.n);
     }
 }
 
