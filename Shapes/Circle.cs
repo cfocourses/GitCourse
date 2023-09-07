@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Circle
+    internal class Circle : IShapes
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Triangule
+    internal class Triangule :IShapes
     {
         double Lado1(double x, double y);
         double Lado2(double x, double y);

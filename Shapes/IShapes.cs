@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Shapes
+    interface IShapes
     {
+        public double CalcularPerimetro();
     }
 }
