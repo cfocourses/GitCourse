@@ -9,7 +9,14 @@ public class Calculator : ICalculator
 
     public double Add(double a, double y)
     {
-        throw new NotImplementedException();
+        try{
+             var sum = a + y;
+             return sum;  
+        }
+        {
+            throw new NotImplementedException();
+            return 0;
+        }
     }
 
     public double Div(double x, double y)
