@@ -2,9 +2,19 @@
 
 public class Calculator : ICalculator
 {
-    public double Abs(double x, int module)
+    public double Abs(double x, int y)
     {
-        throw new NotImplementedException();
+        if (x < 0)
+        {
+            x = -x;
+        }
+
+        if (x >= y)
+        {
+            x = x % y;
+        }
+
+        return x;
     }
 
     public double Add(double a, double y)
