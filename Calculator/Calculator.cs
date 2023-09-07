@@ -9,7 +9,7 @@ public class Calculator : ICalculator
 
     public double Add(double a, double y)
     {
-        throw new NotImplementedException();
+        return(a + y);
     }
 
     public double Div(double x, double y)
