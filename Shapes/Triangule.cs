@@ -8,7 +8,13 @@ namespace CursoGit.Shapes
 {
     internal class Triangule
     {
-        double Area(double x, double y);
-        double Perimeter(double x, double y);
+        double Lado1(double x, double y);
+        double Lado2(double x, double y);
+        double Lado3(double x, double y);
+
+        public double CalcularPerimetro()
+        {
+            return Lado1 + Lado2 + Lado3();
+        }
     }
 }
