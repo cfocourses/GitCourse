@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Triangule :IShapes
+    public class Triangule : IShapes
     {
-        double Lado1(double x, double y);
-        double Lado2(double x, double y);
-        double Lado3(double x, double y);
-
-        public double CalcularPerimetro()
+        public double Area(double x, double y)
         {
-            return Lado1 + Lado2 + Lado3();
+            return (x * y) / 2;
+        }
+
+        public double Perimeter(double x, double y)
+        {
+            return x + y + Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
         }
     }
 }
