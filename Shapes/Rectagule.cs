@@ -4,12 +4,12 @@
     {
         public double Area(double x, double y)
         {
-            throw new NotImplementedException();
+            return (x * y);
         }
 
         public double Perimeter(double x, double y)
         {
-            throw new NotImplementedException();
+            return 2 * (x+y);
         }
     }
 }
