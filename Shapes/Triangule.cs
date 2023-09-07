@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Triangule
+    public class Triangule : IShapes
     {
+        public double Area(double x, double y)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double Perimeter(double x, double y)
+        {
+            throw new NotImplementedException();
+        }
     }
+
 }
