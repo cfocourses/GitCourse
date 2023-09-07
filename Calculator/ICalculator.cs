@@ -24,4 +24,5 @@ public interface ICalculator
 
     double Pow(double x, int n);
 
+    int ToCube(int num);
 }

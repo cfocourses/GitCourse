@@ -1,8 +1,10 @@
-﻿internal class Program
+﻿using CursoGit;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        //Invocar 2 ejemplos para cada operación de la clas Calculator.
+        Console.WriteLine("Hacemos 5 al cubo -> " + new Calculator().ToCube(5));
     }
 
 

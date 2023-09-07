@@ -46,5 +46,10 @@ public class Calculator : ICalculator
     {
         throw new NotImplementedException();
     }
+
+    public int ToCube(int num)
+    {
+        return num * num * num;
+    }
 }
 
