@@ -24,7 +24,12 @@ public class Calculator : ICalculator
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        if (y == 0)
+        {
+            throw new DivideByZeroException();
+        }
+
+        return x / y;
     }
 
     public double Mult(double x, double y)
