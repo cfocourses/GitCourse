@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace CursoGit.Shapes
 {
-    internal class Circle
+    public class Circle : IShapes
     {
+        public double Area(double x, double y)
+        {
+            return Math.PI * x * x;
+        }
+
+        public double Perimeter(double x, double y)
+        {
+            return 2 * Math.PI * x;
+        }
     }
 }
