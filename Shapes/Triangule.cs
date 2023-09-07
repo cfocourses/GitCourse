@@ -8,5 +8,7 @@ namespace CursoGit.Shapes
 {
     internal class Triangule
     {
+        double Area(double x, double y);
+        double Perimeter(double x, double y);
     }
 }
