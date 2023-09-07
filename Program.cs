@@ -6,10 +6,6 @@ internal class Program
     {
         var calculator = new Calculator();
 
-        calculator.Add(3, 5);
-
+        Console.WriteLine($"3 + 5: {calculator.Add(3, 5)}");
     }
-
-
-
 }
