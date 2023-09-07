@@ -2,7 +2,7 @@
 
 namespace CursoGit.Shapes
 {
-    public interface Rectagule : IShapes
+    public class Rectagule : IShapes
     {
         double LadoA(double x, double y);
         double LadoB(double x, double y);
