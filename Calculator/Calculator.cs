@@ -14,7 +14,8 @@ public class Calculator : ICalculator
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        double resp=0;
+       return resp=x/y;
     }
 
     public double Mult(double x, double y)
