@@ -39,7 +39,7 @@ public class Calculator : ICalculator
 
      public double AddMod(double a, double y, int mod)
      {
-          return (a + y) % mod;
+          return Add(a, y) % mod;
      }
 
      public double MultMod(double x, double y, int mod)
