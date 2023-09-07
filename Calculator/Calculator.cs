@@ -19,6 +19,7 @@ public class Calculator : ICalculator
 
     public double Mult(double x, double y)
     {
+        return x * y
         throw new NotImplementedException();
     }
 
