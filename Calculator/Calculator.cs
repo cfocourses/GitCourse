@@ -44,8 +44,8 @@ public class Calculator : ICalculator
 
      public double MultMod(double x, double y, int mod)
      {
-         throw new NotImplementedException(); 
-     }
+        return Mult(a, y) % mod;
+    }
 
      public double DivMod(double x, double y, int mod)
      {
