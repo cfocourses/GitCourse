@@ -4,7 +4,7 @@ public class Calculator : ICalculator
 {
     public double Abs(double x, int module)
     {
-        return x - module;
+        return x % module;
     }
 
     public double Add(double a, double y)
