@@ -9,7 +9,7 @@
 
         public double Perimeter(double x, double y)
         {
-            throw new NotImplementedException();
+            return x * 2 + y * 2;
         }
     }
 }
