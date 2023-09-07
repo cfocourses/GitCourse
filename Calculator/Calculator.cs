@@ -14,37 +14,43 @@ public class Calculator : ICalculator
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        if(y != 0)
+            return x/y;
+
+        throw new DivideByZeroException();
     }
 
     public double Mult(double x, double y)
     {
-        throw new NotImplementedException();
+        return x*y;
     }
 
      public double AddMod(double a, double y, int mod)
      {
-          throw new NotImplementedException(); 
+          return (a + y) % mod;
      }
 
      public double MultMod(double x, double y, int mod)
      {
-         throw new NotImplementedException(); 
+         return (x * y) % mod;
      }
 
      public double DivMod(double x, double y, int mod)
      {
-         throw new NotImplementedException(); 
+        if(y != 0)
+             return (x / y) % mod;
+
+        throw new DivideByZeroException();
      }
 
      public double AbsMod(double x, int module, int mod)
      {
-         throw new NotImplementedException(); 
+         return x%mod;
      }
 
     public double Pow(double x, int n)
     {
-        throw new NotImplementedException();
+        return Math.Pow(x, n);
     }
 }
 
