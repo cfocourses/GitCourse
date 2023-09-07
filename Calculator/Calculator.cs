@@ -14,7 +14,14 @@ public class Calculator : ICalculator
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        try{
+             return x / y;   
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("No se puede dividir por 0");
+            return 0;
+        }
     }
 
     public double Mult(double x, double y)
