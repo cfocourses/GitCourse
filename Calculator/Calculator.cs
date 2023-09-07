@@ -4,7 +4,7 @@ public class Calculator : ICalculator
 {
     public double Abs(double x, int module)
     {
-        throw new NotImplementedException();
+        return x - module;
     }
 
     public double Add(double a, double y)
