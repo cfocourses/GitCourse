@@ -1,8 +1,13 @@
-﻿internal class Program
+﻿using CursoGit;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        //Invocar 2 ejemplos para cada operación de la clas Calculator.
+        var calculator = new Calculator();
+
+        calculator.Add(3, 5);
+
     }
 
 

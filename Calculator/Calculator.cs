@@ -4,22 +4,22 @@ public class Calculator : ICalculator
 {
     public double Abs(double x, int module)
     {
-        throw new NotImplementedException();
+        return x < 0 ? -x : x;
     }
 
     public double Add(double a, double y)
     {
-        throw new NotImplementedException();
+        return a + y;
     }
 
     public double Div(double x, double y)
     {
-        throw new NotImplementedException();
+        return x / y;
     }
 
     public double Mult(double x, double y)
     {
-        throw new NotImplementedException();
+        return x * y;
     }
 
      public double AddMod(double a, double y, int mod)
