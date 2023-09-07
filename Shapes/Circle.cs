@@ -11,7 +11,7 @@ namespace CursoGit.Shapes
         //jeflkdsjflksd
         public double Area(double x, double y)
         {
-            throw new NotImplementedException();
+            return Math.PI * Math.Pow(x,2);
         }
 
         public double Perimeter(double x, double y)
